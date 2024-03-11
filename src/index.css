@@ -12,12 +12,16 @@ code {
     monospace;
 }
 
-*{
-  margin: 0;
-}
-
 :root{
   --main-color: rgb(17, 17, 17);
   --second-color: rgb(24, 24, 24);
   --red-pallete: #b71c1c;
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
