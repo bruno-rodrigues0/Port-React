@@ -3,9 +3,8 @@
 .footer{
     background-color: var(--main-color);
     width: 100%;
-    padding: 2rem;
-    position: fixed;
-    bottom: 0;
+    padding-block: 2rem;
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;

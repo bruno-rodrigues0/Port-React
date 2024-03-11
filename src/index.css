@@ -18,5 +18,6 @@ code {
 
 :root{
   --main-color: rgb(17, 17, 17);
+  --second-color: rgb(24, 24, 24);
   --red-pallete: #b71c1c;
 }

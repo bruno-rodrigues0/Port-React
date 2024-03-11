@@ -1,0 +1,10 @@
+@import url(/src/index.css);
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--second-color);
+    color: white;
+    text-align: center;
+    padding-block: 2rem;
+}
