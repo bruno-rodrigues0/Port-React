@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*{
+  margin: 0;
+}
+
+:root{
+  --main-color: rgb(17, 17, 17);
+  --red-pallete: #b71c1c;
+}

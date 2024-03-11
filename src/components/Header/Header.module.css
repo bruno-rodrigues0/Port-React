@@ -1,0 +1,35 @@
+@import url(../../index.css);
+
+.header{
+    position: fixed;
+    width: calc(100% - 6rem);
+    background-color: var(--main-color);
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-bottom: 5px solid var(--red-pallete);
+}
+
+.header h1{
+    color: var(--red-pallete);
+}
+
+.header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    font-size: 22px;
+}
+
+.header a, .header a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
