@@ -1,0 +1,8 @@
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-block: 1rem;
+  }

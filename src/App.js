@@ -2,8 +2,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Banner from "./components/Banner";
 import Container from "./components/Container";
-import Card from "./components/Card";
-import videos from './json/db.json'
+import Categories from "./components/Categories";
 
 function App() {
   return (
@@ -11,14 +10,11 @@ function App() {
       <Header />
       <Banner image="home" />
       <Container>
-          <h2>Geografia</h2>
-        <section className="cards">
-          {videos.map((video) => <Card id={video.id} key={video.id}/>)}
-        </section>
-          <h2>História</h2>
-        <section className="cards">
-          {videos.map((video) => <Card id={video.id} key={video.id}/>)}
-        </section>
+          <Categories titulo="Análise de dados" />
+          <Categories titulo="Cálculo" />
+          <Categories titulo="Rede de computadores" />
+          <Categories titulo="Lógica de Programação" />
+          <Categories titulo="Banco de Dados" />
       </Container>
       <Footer />
     </>
